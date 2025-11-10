@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Comprehensive TOON2 Test Suite
+Comprehensive Deep-TOON Test Suite
 
-Tests TOON2 encoding/decoding across a wide range of JSON structures
+Tests Deep-TOON encoding/decoding across a wide range of JSON structures
 to validate token reduction and perfect roundtrip fidelity.
 """
 
@@ -10,8 +10,7 @@ import json
 import requests
 import tiktoken
 from typing import Dict, List, Any
-from toon2_encoder import Toon2Encoder
-from toon2_decoder import Toon2Decoder
+from deep_toon import DeepToonEncoder, DeepToonDecoder
 from deepdiff import DeepDiff
 
 
@@ -32,39 +31,39 @@ def fetch_dummyjson_users(url, limit=5):
         return None
 
 
-def test_toon2_generic(data, test_name="Generic Test", verbose=False):
-    """Generic TOON2 test function"""
+def test_deep_toon_generic(data, test_name="Generic Test", verbose=False):
+    """Generic Deep-TOON test function"""
     try:
         # Count original tokens
         orig_json = json.dumps(data)
         orig_token_cnt = count_tokens(orig_json)
         
-        # Encode to TOON2
-        encoder = Toon2Encoder()
+        # Encode to Deep-TOON
+        encoder = DeepToonEncoder()
         toon_data = encoder.encode(data)
         toon_token_cnt = count_tokens(toon_data)
         
         # Decode back
-        decoder = Toon2Decoder()
+        decoder = DeepToonDecoder()
         decoded_data = decoder.decode(toon_data)
         
         # Compare for perfect roundtrip
         diff = DeepDiff(data, decoded_data, ignore_order=True)
         
         # Calculate results
-        reduction = ((orig_token_cnt - toon_token_cnt) / orig_token_cnt * 100) if orig_token_cnt > 0 else 0
+        savings = ((orig_token_cnt - toon_token_cnt) / orig_token_cnt * 100) if orig_token_cnt > 0 else 0
         roundtrip_perfect = not diff
         
         # Determine pass/fail
         passed = roundtrip_perfect and (toon_token_cnt <= orig_token_cnt)
         
         print(f"{'✅ PASS' if passed else '❌ FAIL'} | {test_name}")
-        print(f"  Tokens: {orig_token_cnt} → {toon_token_cnt} ({reduction:+.1f}%)")
+        print(f"  Tokens: {orig_token_cnt} → {toon_token_cnt} ({-savings:.1f}%)")
         print(f"  Roundtrip: {'Perfect' if roundtrip_perfect else 'FAILED'}")
         
         if verbose or not passed:
             print(f"  Original JSON: {orig_json[:100]}...")
-            print(f"  TOON2 Format: {toon_data[:100]}...")
+            print(f"  Deep-TOON Format: {toon_data[:100]}...")
             if diff:
                 print(f"  Differences: {diff}")
         
@@ -73,7 +72,7 @@ def test_toon2_generic(data, test_name="Generic Test", verbose=False):
             'passed': passed,
             'orig_tokens': orig_token_cnt,
             'toon_tokens': toon_token_cnt,
-            'reduction': reduction,
+            'savings': savings,
             'roundtrip': roundtrip_perfect
         }
         
@@ -397,7 +396,7 @@ def run_api_tests():
         print(f"\n📡 Testing {name}...")
         data = fetch_dummyjson_users(url, limit=3)
         if data:
-            result = test_toon2_generic(data, name)
+            result = test_deep_toon_generic(data, name)
             results.append(result)
         else:
             print(f"❌ Failed to fetch {name}")
@@ -416,7 +415,7 @@ def run_synthetic_tests():
     
     for dataset in datasets:
         print(f"\n🔬 Testing {dataset['name']}...")
-        result = test_toon2_generic(dataset['data'], dataset['name'])
+        result = test_deep_toon_generic(dataset['data'], dataset['name'])
         results.append(result)
     
     return results
@@ -437,20 +436,20 @@ def print_summary(results):
     print(f"Success Rate: {len(passed)/len(results)*100:.1f}%")
     
     if passed:
-        token_reductions = [r['reduction'] for r in passed if 'reduction' in r]
-        avg_reduction = sum(token_reductions) / len(token_reductions)
-        max_reduction = max(token_reductions)
-        min_reduction = min(token_reductions)
+        token_savings = [r['savings'] for r in passed if 'savings' in r]
+        avg_savings = sum(token_savings) / len(token_savings)
+        max_savings = max(token_savings)
+        min_savings = min(token_savings)
         
-        print(f"\n📈 Token Reduction Stats:")
-        print(f"  Average: {avg_reduction:.1f}%")
-        print(f"  Best: {max_reduction:.1f}%")
-        print(f"  Worst: {min_reduction:.1f}%")
+        print(f"\n📈 Token Savings Stats:")
+        print(f"  Average: {-avg_savings:.1f}%")
+        print(f"  Best: {-max_savings:.1f}%")
+        print(f"  Worst: {-min_savings:.1f}%")
         
         print(f"\n🏆 Top Performers:")
-        sorted_results = sorted(passed, key=lambda x: x['reduction'], reverse=True)
+        sorted_results = sorted(passed, key=lambda x: x['savings'], reverse=True)
         for i, result in enumerate(sorted_results[:3]):
-            print(f"  {i+1}. {result['name']}: {result['reduction']:.1f}% reduction")
+            print(f"  {i+1}. {result['name']}: {-result['savings']:.1f}% savings")
     
     if failed:
         print(f"\n💥 Failed Tests:")
@@ -460,8 +459,8 @@ def print_summary(results):
 
 
 def main():
-    """Run comprehensive TOON2 test suite"""
-    print("🚀 TOON2 COMPREHENSIVE TEST SUITE")
+    """Run comprehensive Deep-TOON test suite"""
+    print("🚀 DEEP-TOON COMPREHENSIVE TEST SUITE")
     print("="*60)
     
     all_results = []
@@ -480,9 +479,9 @@ def main():
     # Additional analysis
     print(f"\n📋 Detailed Results:")
     for result in all_results:
-        if 'reduction' in result:
+        if 'savings' in result:
             status = "✅" if result['passed'] else "❌"
-            print(f"  {status} {result['name']}: {result['orig_tokens']}→{result['toon_tokens']} tokens ({result['reduction']:+.1f}%)")
+            print(f"  {status} {result['name']}: {result['orig_tokens']}→{result['toon_tokens']} tokens ({-result['savings']:.1f}%)")
 
 
 if __name__ == "__main__":
