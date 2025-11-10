@@ -43,9 +43,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/deep-toon"
-Repository = "https://github.com/yourusername/deep-toon"
-Documentation = "https://github.com/yourusername/deep-toon#readme"
+Homepage = "https://github.com/csabakecskemeti/deep-toon-python"
+Repository = "https://github.com/csabakecskemeti/deep-toon-python"
+Documentation = "https://github.com/csabakecskemeti/deep-toon-python#readme"
 
 [tool.setuptools]
 packages = ["deep_toon"]

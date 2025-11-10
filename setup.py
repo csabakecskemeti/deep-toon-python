@@ -27,7 +27,7 @@ setup(
     description="Deep Token-Oriented Object Notation - Efficient JSON compression for LLM applications",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/deep-toon-python",  # Update with actual repo
+    url="https://github.com/csabakecskemeti/deep-toon-python",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -56,9 +56,9 @@ setup(
         ]
     },
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/deep-toon-python/issues",
-        "Source": "https://github.com/yourusername/deep-toon-python",
-        "Documentation": "https://github.com/yourusername/deep-toon-python/blob/main/README.md",
+        "Bug Reports": "https://github.com/csabakecskemeti/deep-toon-python/issues",
+        "Source": "https://github.com/csabakecskemeti/deep-toon-python",
+        "Documentation": "https://github.com/csabakecskemeti/deep-toon-python/blob/main/README.md",
     },
     keywords="json compression llm ai tokens optimization serialization",
     zip_safe=False,
