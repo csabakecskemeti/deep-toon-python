@@ -65,9 +65,10 @@ def generate_comprehensive_test_cases() -> List[TestCase]:
                     ground_truth_func=lambda d: next((u['address']['city'] for u in d['users'] if u['id'] == 3), "NOT_FOUND")
                 ),
                 Question(
-                    text="Look at all users and find the one with the longest 'firstName' (most characters). Provide only that person's exact 'firstName'.",
+                    text="Look at all users and find the one with the longest 'firstName' (most characters). If multiple users have the same longest length, provide the first one found. Provide only that person's exact 'firstName'.",
                     expected_type='text',
-                    ground_truth_func=lambda d: max(d['users'], key=lambda u: len(u['firstName']))['firstName']
+                    # Find first user with maximum firstName length (handles ties)
+                    ground_truth_func=lambda d: next(u['firstName'] for u in d['users'] if len(u['firstName']) == max(len(u['firstName']) for u in d['users']))
                 ),
                 Question(
                     text="Find the user whose 'company.title' contains the word 'Manager' and provide only their exact 'lastName'. (If multiple, provide the first one found)",
@@ -96,9 +97,9 @@ def generate_comprehensive_test_cases() -> List[TestCase]:
                     ground_truth_func=lambda d: next((p.get('brand', 'N/A') for p in d['products'] if p['id'] == 7), "NOT_FOUND")
                 ),
                 Question(
-                    text="Look at all product descriptions and find which one mentions the word 'skin'. Provide only that product's exact 'title'. (If multiple, provide the first one found)",
+                    text="Look at all product descriptions and find which one mentions the word 'whisking'. Provide only that product's exact 'title'. (If multiple, provide the first one found)",
                     expected_type='text',
-                    ground_truth_func=lambda d: next((p['title'] for p in d['products'] if 'skin' in p['description'].lower()), "NOT_FOUND")
+                    ground_truth_func=lambda d: next((p['title'] for p in d['products'] if 'whisking' in p['description'].lower()), "NOT_FOUND")
                 ),
                 Question(
                     text="Find the product that has 'moisturizing' in its description and provide only its exact 'category' value. (If multiple, provide the first one found)",

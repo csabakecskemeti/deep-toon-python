@@ -1,0 +1,26 @@
+{
+  "numbers": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "strings": [
+    "apple",
+    "banana",
+    "cherry"
+  ],
+  "booleans": [
+    true,
+    false,
+    true
+  ],
+  "mixed": [
+    1,
+    "text",
+    true,
+    null,
+    3.14
+  ]
+}

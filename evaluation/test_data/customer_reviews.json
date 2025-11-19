@@ -1,0 +1,404 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "customer": "Carol",
+      "product": "Monitor",
+      "rating": 1,
+      "comment": "Terrible, waste of money. (Review #1)",
+      "date": "2025-01-10"
+    },
+    {
+      "id": 2,
+      "customer": "David",
+      "product": "Mouse",
+      "rating": 4,
+      "comment": "Good value for money. (Review #2)",
+      "date": "2025-01-30"
+    },
+    {
+      "id": 3,
+      "customer": "Bob",
+      "product": "Keyboard",
+      "rating": 4,
+      "comment": "Works well, minor issues. (Review #3)",
+      "date": "2025-01-24"
+    },
+    {
+      "id": 4,
+      "customer": "Jack",
+      "product": "Mouse",
+      "rating": 2,
+      "comment": "Disappointed, stopped working. (Review #4)",
+      "date": "2025-01-27"
+    },
+    {
+      "id": 5,
+      "customer": "Grace",
+      "product": "Speaker",
+      "rating": 4,
+      "comment": "Good value for money. (Review #5)",
+      "date": "2025-01-22"
+    },
+    {
+      "id": 6,
+      "customer": "Carol",
+      "product": "Camera",
+      "rating": 4,
+      "comment": "Works well, minor issues. (Review #6)",
+      "date": "2025-01-03"
+    },
+    {
+      "id": 7,
+      "customer": "Bob",
+      "product": "Monitor",
+      "rating": 1,
+      "comment": "Terrible, waste of money. (Review #7)",
+      "date": "2025-01-25"
+    },
+    {
+      "id": 8,
+      "customer": "Carol",
+      "product": "Keyboard",
+      "rating": 2,
+      "comment": "Disappointed, stopped working. (Review #8)",
+      "date": "2025-01-25"
+    },
+    {
+      "id": 9,
+      "customer": "Carol",
+      "product": "Keyboard",
+      "rating": 1,
+      "comment": "Do not buy! Worst ever. (Review #9)",
+      "date": "2025-01-06"
+    },
+    {
+      "id": 10,
+      "customer": "Ivy",
+      "product": "Keyboard",
+      "rating": 2,
+      "comment": "Disappointed, stopped working. (Review #10)",
+      "date": "2025-01-30"
+    },
+    {
+      "id": 11,
+      "customer": "Eva",
+      "product": "Tablet",
+      "rating": 3,
+      "comment": "Not bad, but could be better. (Review #11)",
+      "date": "2025-01-15"
+    },
+    {
+      "id": 12,
+      "customer": "Eva",
+      "product": "Phone",
+      "rating": 2,
+      "comment": "Disappointed, stopped working. (Review #12)",
+      "date": "2025-01-19"
+    },
+    {
+      "id": 13,
+      "customer": "David",
+      "product": "Mouse",
+      "rating": 1,
+      "comment": "Terrible, waste of money. (Review #13)",
+      "date": "2025-01-15"
+    },
+    {
+      "id": 14,
+      "customer": "Jack",
+      "product": "Tablet",
+      "rating": 4,
+      "comment": "Works well, minor issues. (Review #14)",
+      "date": "2025-01-13"
+    },
+    {
+      "id": 15,
+      "customer": "Bob",
+      "product": "Camera",
+      "rating": 4,
+      "comment": "Good value for money. (Review #15)",
+      "date": "2025-01-05"
+    },
+    {
+      "id": 16,
+      "customer": "Carol",
+      "product": "Camera",
+      "rating": 5,
+      "comment": "Amazing product! Loved it. (Review #16)",
+      "date": "2025-01-02"
+    },
+    {
+      "id": 17,
+      "customer": "Ivy",
+      "product": "Laptop",
+      "rating": 1,
+      "comment": "Terrible, waste of money. (Review #17)",
+      "date": "2025-01-05"
+    },
+    {
+      "id": 18,
+      "customer": "Jack",
+      "product": "Speaker",
+      "rating": 5,
+      "comment": "Amazing product! Loved it. (Review #18)",
+      "date": "2025-01-20"
+    },
+    {
+      "id": 19,
+      "customer": "Eva",
+      "product": "Headphones",
+      "rating": 4,
+      "comment": "Works well, minor issues. (Review #19)",
+      "date": "2025-01-04"
+    },
+    {
+      "id": 20,
+      "customer": "Alice",
+      "product": "Tablet",
+      "rating": 3,
+      "comment": "Not bad, but could be better. (Review #20)",
+      "date": "2025-01-01"
+    },
+    {
+      "id": 21,
+      "customer": "Eva",
+      "product": "Monitor",
+      "rating": 5,
+      "comment": "Amazing product! Loved it. (Review #21)",
+      "date": "2025-01-28"
+    },
+    {
+      "id": 22,
+      "customer": "Grace",
+      "product": "Mouse",
+      "rating": 3,
+      "comment": "It's okay, average quality. (Review #22)",
+      "date": "2025-01-26"
+    },
+    {
+      "id": 23,
+      "customer": "Eva",
+      "product": "Speaker",
+      "rating": 4,
+      "comment": "Good value for money. (Review #23)",
+      "date": "2025-01-31"
+    },
+    {
+      "id": 24,
+      "customer": "Carol",
+      "product": "Speaker",
+      "rating": 1,
+      "comment": "Terrible, waste of money. (Review #24)",
+      "date": "2025-01-11"
+    },
+    {
+      "id": 25,
+      "customer": "Frank",
+      "product": "Speaker",
+      "rating": 2,
+      "comment": "Disappointed, stopped working. (Review #25)",
+      "date": "2025-01-27"
+    },
+    {
+      "id": 26,
+      "customer": "Eva",
+      "product": "Monitor",
+      "rating": 5,
+      "comment": "Perfect, exactly what I wanted. (Review #26)",
+      "date": "2025-01-30"
+    },
+    {
+      "id": 27,
+      "customer": "Ivy",
+      "product": "Tablet",
+      "rating": 5,
+      "comment": "Amazing product! Loved it. (Review #27)",
+      "date": "2025-01-28"
+    },
+    {
+      "id": 28,
+      "customer": "David",
+      "product": "Monitor",
+      "rating": 5,
+      "comment": "Amazing product! Loved it. (Review #28)",
+      "date": "2025-01-25"
+    },
+    {
+      "id": 29,
+      "customer": "Henry",
+      "product": "Mouse",
+      "rating": 3,
+      "comment": "Not bad, but could be better. (Review #29)",
+      "date": "2025-01-18"
+    },
+    {
+      "id": 30,
+      "customer": "David",
+      "product": "Phone",
+      "rating": 1,
+      "comment": "Terrible, waste of money. (Review #30)",
+      "date": "2025-01-13"
+    },
+    {
+      "id": 31,
+      "customer": "Jack",
+      "product": "Laptop",
+      "rating": 1,
+      "comment": "Do not buy! Worst ever. (Review #31)",
+      "date": "2025-01-18"
+    },
+    {
+      "id": 32,
+      "customer": "Frank",
+      "product": "Tablet",
+      "rating": 1,
+      "comment": "Do not buy! Worst ever. (Review #32)",
+      "date": "2025-01-30"
+    },
+    {
+      "id": 33,
+      "customer": "Eva",
+      "product": "Laptop",
+      "rating": 5,
+      "comment": "Amazing product! Loved it. (Review #33)",
+      "date": "2025-01-10"
+    },
+    {
+      "id": 34,
+      "customer": "David",
+      "product": "Watch",
+      "rating": 1,
+      "comment": "Do not buy! Worst ever. (Review #34)",
+      "date": "2025-01-25"
+    },
+    {
+      "id": 35,
+      "customer": "Ivy",
+      "product": "Mouse",
+      "rating": 3,
+      "comment": "Not bad, but could be better. (Review #35)",
+      "date": "2025-01-09"
+    },
+    {
+      "id": 36,
+      "customer": "Henry",
+      "product": "Laptop",
+      "rating": 1,
+      "comment": "Do not buy! Worst ever. (Review #36)",
+      "date": "2025-01-03"
+    },
+    {
+      "id": 37,
+      "customer": "Bob",
+      "product": "Headphones",
+      "rating": 3,
+      "comment": "Not bad, but could be better. (Review #37)",
+      "date": "2025-01-09"
+    },
+    {
+      "id": 38,
+      "customer": "Ivy",
+      "product": "Tablet",
+      "rating": 5,
+      "comment": "Perfect, exactly what I wanted. (Review #38)",
+      "date": "2025-01-14"
+    },
+    {
+      "id": 39,
+      "customer": "Ivy",
+      "product": "Phone",
+      "rating": 1,
+      "comment": "Terrible, waste of money. (Review #39)",
+      "date": "2025-01-06"
+    },
+    {
+      "id": 40,
+      "customer": "Eva",
+      "product": "Phone",
+      "rating": 1,
+      "comment": "Do not buy! Worst ever. (Review #40)",
+      "date": "2025-01-17"
+    },
+    {
+      "id": 41,
+      "customer": "David",
+      "product": "Camera",
+      "rating": 5,
+      "comment": "Amazing product! Loved it. (Review #41)",
+      "date": "2025-01-04"
+    },
+    {
+      "id": 42,
+      "customer": "Eva",
+      "product": "Laptop",
+      "rating": 1,
+      "comment": "Terrible, waste of money. (Review #42)",
+      "date": "2025-01-18"
+    },
+    {
+      "id": 43,
+      "customer": "Grace",
+      "product": "Watch",
+      "rating": 5,
+      "comment": "Perfect, exactly what I wanted. (Review #43)",
+      "date": "2025-01-08"
+    },
+    {
+      "id": 44,
+      "customer": "Jack",
+      "product": "Speaker",
+      "rating": 4,
+      "comment": "Works well, minor issues. (Review #44)",
+      "date": "2025-01-10"
+    },
+    {
+      "id": 45,
+      "customer": "Alice",
+      "product": "Speaker",
+      "rating": 3,
+      "comment": "It's okay, average quality. (Review #45)",
+      "date": "2025-01-01"
+    },
+    {
+      "id": 46,
+      "customer": "Jack",
+      "product": "Mouse",
+      "rating": 3,
+      "comment": "Not bad, but could be better. (Review #46)",
+      "date": "2025-01-06"
+    },
+    {
+      "id": 47,
+      "customer": "Carol",
+      "product": "Mouse",
+      "rating": 4,
+      "comment": "Works well, minor issues. (Review #47)",
+      "date": "2025-01-11"
+    },
+    {
+      "id": 48,
+      "customer": "Alice",
+      "product": "Tablet",
+      "rating": 3,
+      "comment": "It's okay, average quality. (Review #48)",
+      "date": "2025-01-11"
+    },
+    {
+      "id": 49,
+      "customer": "David",
+      "product": "Speaker",
+      "rating": 2,
+      "comment": "Poor quality materials. (Review #49)",
+      "date": "2025-01-06"
+    },
+    {
+      "id": 50,
+      "customer": "Ivy",
+      "product": "Laptop",
+      "rating": 5,
+      "comment": "Amazing product! Loved it. (Review #50)",
+      "date": "2025-01-12"
+    }
+  ]
+}

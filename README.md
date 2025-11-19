@@ -178,7 +178,40 @@ person{name,age,address{street,city}}
 # Results in: ("Alice", 30, ("123 Main", "NYC"))
 ```
 
+## 🔬 Array Normalization Behavior
+
+Deep-TOON normalizes arrays to ensure all objects have the same structure. This is **semantically correct** and improves LLM comprehension.
+
+**Example:**
+```python
+# Original JSON with inconsistent structure
+data = {
+    "products": [
+        {"name": "Laptop", "brand": "Dell", "price": 999},
+        {"name": "Mouse", "price": 29},  # No 'brand' field
+    ]
+}
+
+# After Deep-TOON roundtrip
+decoded = {
+    "products": [
+        {"name": "Laptop", "brand": "Dell", "price": 999},
+        {"name": "Mouse", "brand": null, "price": 29},  # 'brand' added as null
+    ]
+}
+```
+
+**Why this is correct:**
+- Missing field = "no value" = `null`
+- Semantically equivalent: both represent "no brand"
+- Data meaning is preserved
+- LLMs can more easily work with uniform structure
+- Enables more efficient compression
+
+Our fidelity tests use **semantic comparison** that treats missing fields as equivalent to `null` values.
+
 ### Null Handling
+
 
 Missing or null values are handled gracefully:
 

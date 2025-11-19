@@ -1,0 +1,1736 @@
+{
+  "orders": [
+    {
+      "id": "ORD-001",
+      "customer": {
+        "name": "Henry Jones",
+        "city": "San Diego",
+        "age": 67
+      },
+      "items": [
+        {
+          "product": "Chair",
+          "price": 89.99,
+          "qty": 3,
+          "category": "Furniture"
+        },
+        {
+          "product": "Mouse",
+          "price": 29.99,
+          "qty": 3,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 359.94,
+        "tax": 28.8,
+        "shipping": 5.0,
+        "total": 393.74
+      },
+      "date": "2025-01-16"
+    },
+    {
+      "id": "ORD-002",
+      "customer": {
+        "name": "Henry Garcia",
+        "city": "Houston",
+        "age": 46
+      },
+      "items": [
+        {
+          "product": "Desk",
+          "price": 150.0,
+          "qty": 3,
+          "category": "Furniture"
+        },
+        {
+          "product": "Mouse",
+          "price": 29.99,
+          "qty": 3,
+          "category": "Electronics"
+        },
+        {
+          "product": "Monitor",
+          "price": 199.99,
+          "qty": 2,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 939.95,
+        "tax": 75.2,
+        "shipping": 15.0,
+        "total": 1030.15
+      },
+      "date": "2025-01-23"
+    },
+    {
+      "id": "ORD-003",
+      "customer": {
+        "name": "Frank Martinez",
+        "city": "LA",
+        "age": 38
+      },
+      "items": [
+        {
+          "product": "Bookmark",
+          "price": 4.99,
+          "qty": 2,
+          "category": "Books"
+        },
+        {
+          "product": "Mouse",
+          "price": 29.99,
+          "qty": 2,
+          "category": "Electronics"
+        },
+        {
+          "product": "Bookmark",
+          "price": 4.99,
+          "qty": 3,
+          "category": "Books"
+        },
+        {
+          "product": "Monitor",
+          "price": 199.99,
+          "qty": 3,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 684.9,
+        "tax": 54.79,
+        "shipping": 5.0,
+        "total": 744.69
+      },
+      "date": "2025-01-21"
+    },
+    {
+      "id": "ORD-004",
+      "customer": {
+        "name": "Henry Rodriguez",
+        "city": "San Antonio",
+        "age": 39
+      },
+      "items": [
+        {
+          "product": "Bookmark",
+          "price": 4.99,
+          "qty": 2,
+          "category": "Books"
+        },
+        {
+          "product": "Laptop",
+          "price": 999.99,
+          "qty": 3,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 3009.95,
+        "tax": 240.8,
+        "shipping": 15.0,
+        "total": 3265.75
+      },
+      "date": "2025-01-30"
+    },
+    {
+      "id": "ORD-005",
+      "customer": {
+        "name": "Carol Williams",
+        "city": "Chicago",
+        "age": 19
+      },
+      "items": [
+        {
+          "product": "Keyboard",
+          "price": 59.99,
+          "qty": 2,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 119.98,
+        "tax": 9.6,
+        "shipping": 10.0,
+        "total": 139.58
+      },
+      "date": "2025-01-06"
+    },
+    {
+      "id": "ORD-006",
+      "customer": {
+        "name": "Bob Garcia",
+        "city": "Chicago",
+        "age": 24
+      },
+      "items": [
+        {
+          "product": "Book",
+          "price": 19.99,
+          "qty": 3,
+          "category": "Books"
+        },
+        {
+          "product": "Jeans",
+          "price": 49.99,
+          "qty": 3,
+          "category": "Clothing"
+        },
+        {
+          "product": "Desk",
+          "price": 150.0,
+          "qty": 2,
+          "category": "Furniture"
+        }
+      ],
+      "totals": {
+        "subtotal": 509.94,
+        "tax": 40.8,
+        "shipping": 10.0,
+        "total": 560.74
+      },
+      "date": "2025-01-02"
+    },
+    {
+      "id": "ORD-007",
+      "customer": {
+        "name": "Henry Martinez",
+        "city": "San Antonio",
+        "age": 68
+      },
+      "items": [
+        {
+          "product": "Mouse",
+          "price": 29.99,
+          "qty": 2,
+          "category": "Electronics"
+        },
+        {
+          "product": "Desk",
+          "price": 150.0,
+          "qty": 2,
+          "category": "Furniture"
+        },
+        {
+          "product": "Mouse",
+          "price": 29.99,
+          "qty": 1,
+          "category": "Electronics"
+        },
+        {
+          "product": "Keyboard",
+          "price": 59.99,
+          "qty": 1,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 449.96,
+        "tax": 36.0,
+        "shipping": 0.0,
+        "total": 485.96
+      },
+      "date": "2025-01-07"
+    },
+    {
+      "id": "ORD-008",
+      "customer": {
+        "name": "Carol Smith",
+        "city": "San Jose",
+        "age": 35
+      },
+      "items": [
+        {
+          "product": "Mouse",
+          "price": 29.99,
+          "qty": 2,
+          "category": "Electronics"
+        },
+        {
+          "product": "T-Shirt",
+          "price": 14.99,
+          "qty": 2,
+          "category": "Clothing"
+        },
+        {
+          "product": "Jeans",
+          "price": 49.99,
+          "qty": 3,
+          "category": "Clothing"
+        }
+      ],
+      "totals": {
+        "subtotal": 239.93,
+        "tax": 19.19,
+        "shipping": 15.0,
+        "total": 274.12
+      },
+      "date": "2025-01-07"
+    },
+    {
+      "id": "ORD-009",
+      "customer": {
+        "name": "Eva Rodriguez",
+        "city": "Phoenix",
+        "age": 32
+      },
+      "items": [
+        {
+          "product": "Keyboard",
+          "price": 59.99,
+          "qty": 1,
+          "category": "Electronics"
+        },
+        {
+          "product": "Bookmark",
+          "price": 4.99,
+          "qty": 3,
+          "category": "Books"
+        },
+        {
+          "product": "Mouse",
+          "price": 29.99,
+          "qty": 2,
+          "category": "Electronics"
+        },
+        {
+          "product": "Book",
+          "price": 19.99,
+          "qty": 2,
+          "category": "Books"
+        },
+        {
+          "product": "T-Shirt",
+          "price": 14.99,
+          "qty": 2,
+          "category": "Clothing"
+        }
+      ],
+      "totals": {
+        "subtotal": 204.9,
+        "tax": 16.39,
+        "shipping": 0.0,
+        "total": 221.29
+      },
+      "date": "2025-01-14"
+    },
+    {
+      "id": "ORD-010",
+      "customer": {
+        "name": "Alice Garcia",
+        "city": "San Antonio",
+        "age": 35
+      },
+      "items": [
+        {
+          "product": "Keyboard",
+          "price": 59.99,
+          "qty": 3,
+          "category": "Electronics"
+        },
+        {
+          "product": "Jeans",
+          "price": 49.99,
+          "qty": 2,
+          "category": "Clothing"
+        }
+      ],
+      "totals": {
+        "subtotal": 279.95,
+        "tax": 22.4,
+        "shipping": 15.0,
+        "total": 317.35
+      },
+      "date": "2025-01-01"
+    },
+    {
+      "id": "ORD-011",
+      "customer": {
+        "name": "Jack Miller",
+        "city": "Chicago",
+        "age": 66
+      },
+      "items": [
+        {
+          "product": "Book",
+          "price": 19.99,
+          "qty": 3,
+          "category": "Books"
+        },
+        {
+          "product": "Mouse",
+          "price": 29.99,
+          "qty": 3,
+          "category": "Electronics"
+        },
+        {
+          "product": "Bookmark",
+          "price": 4.99,
+          "qty": 3,
+          "category": "Books"
+        },
+        {
+          "product": "Jeans",
+          "price": 49.99,
+          "qty": 3,
+          "category": "Clothing"
+        }
+      ],
+      "totals": {
+        "subtotal": 314.88,
+        "tax": 25.19,
+        "shipping": 0.0,
+        "total": 340.07
+      },
+      "date": "2025-01-12"
+    },
+    {
+      "id": "ORD-012",
+      "customer": {
+        "name": "Henry Rodriguez",
+        "city": "San Antonio",
+        "age": 56
+      },
+      "items": [
+        {
+          "product": "Keyboard",
+          "price": 59.99,
+          "qty": 3,
+          "category": "Electronics"
+        },
+        {
+          "product": "Book",
+          "price": 19.99,
+          "qty": 2,
+          "category": "Books"
+        },
+        {
+          "product": "T-Shirt",
+          "price": 14.99,
+          "qty": 2,
+          "category": "Clothing"
+        }
+      ],
+      "totals": {
+        "subtotal": 249.93,
+        "tax": 19.99,
+        "shipping": 0.0,
+        "total": 269.92
+      },
+      "date": "2025-01-26"
+    },
+    {
+      "id": "ORD-013",
+      "customer": {
+        "name": "Ivy Williams",
+        "city": "Philadelphia",
+        "age": 34
+      },
+      "items": [
+        {
+          "product": "T-Shirt",
+          "price": 14.99,
+          "qty": 1,
+          "category": "Clothing"
+        },
+        {
+          "product": "Desk",
+          "price": 150.0,
+          "qty": 2,
+          "category": "Furniture"
+        },
+        {
+          "product": "Monitor",
+          "price": 199.99,
+          "qty": 1,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 514.98,
+        "tax": 41.2,
+        "shipping": 10.0,
+        "total": 566.18
+      },
+      "date": "2025-01-08"
+    },
+    {
+      "id": "ORD-014",
+      "customer": {
+        "name": "Bob Brown",
+        "city": "Philadelphia",
+        "age": 30
+      },
+      "items": [
+        {
+          "product": "Bookmark",
+          "price": 4.99,
+          "qty": 2,
+          "category": "Books"
+        },
+        {
+          "product": "Monitor",
+          "price": 199.99,
+          "qty": 3,
+          "category": "Electronics"
+        },
+        {
+          "product": "Keyboard",
+          "price": 59.99,
+          "qty": 1,
+          "category": "Electronics"
+        },
+        {
+          "product": "Book",
+          "price": 19.99,
+          "qty": 2,
+          "category": "Books"
+        }
+      ],
+      "totals": {
+        "subtotal": 709.92,
+        "tax": 56.79,
+        "shipping": 10.0,
+        "total": 776.71
+      },
+      "date": "2025-01-11"
+    },
+    {
+      "id": "ORD-015",
+      "customer": {
+        "name": "Carol Davis",
+        "city": "Phoenix",
+        "age": 67
+      },
+      "items": [
+        {
+          "product": "Laptop",
+          "price": 999.99,
+          "qty": 1,
+          "category": "Electronics"
+        },
+        {
+          "product": "Monitor",
+          "price": 199.99,
+          "qty": 1,
+          "category": "Electronics"
+        },
+        {
+          "product": "Mouse",
+          "price": 29.99,
+          "qty": 2,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 1259.96,
+        "tax": 100.8,
+        "shipping": 5.0,
+        "total": 1365.76
+      },
+      "date": "2025-01-15"
+    },
+    {
+      "id": "ORD-016",
+      "customer": {
+        "name": "Carol Jones",
+        "city": "San Diego",
+        "age": 47
+      },
+      "items": [
+        {
+          "product": "Book",
+          "price": 19.99,
+          "qty": 1,
+          "category": "Books"
+        },
+        {
+          "product": "Mouse",
+          "price": 29.99,
+          "qty": 1,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 49.98,
+        "tax": 4.0,
+        "shipping": 0.0,
+        "total": 53.98
+      },
+      "date": "2025-01-02"
+    },
+    {
+      "id": "ORD-017",
+      "customer": {
+        "name": "Bob Smith",
+        "city": "Phoenix",
+        "age": 41
+      },
+      "items": [
+        {
+          "product": "Jeans",
+          "price": 49.99,
+          "qty": 1,
+          "category": "Clothing"
+        },
+        {
+          "product": "Book",
+          "price": 19.99,
+          "qty": 1,
+          "category": "Books"
+        },
+        {
+          "product": "Mouse",
+          "price": 29.99,
+          "qty": 1,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 99.97,
+        "tax": 8.0,
+        "shipping": 15.0,
+        "total": 122.97
+      },
+      "date": "2025-01-21"
+    },
+    {
+      "id": "ORD-018",
+      "customer": {
+        "name": "Henry Williams",
+        "city": "Houston",
+        "age": 50
+      },
+      "items": [
+        {
+          "product": "Desk",
+          "price": 150.0,
+          "qty": 1,
+          "category": "Furniture"
+        },
+        {
+          "product": "Book",
+          "price": 19.99,
+          "qty": 1,
+          "category": "Books"
+        },
+        {
+          "product": "Mouse",
+          "price": 29.99,
+          "qty": 2,
+          "category": "Electronics"
+        },
+        {
+          "product": "Chair",
+          "price": 89.99,
+          "qty": 1,
+          "category": "Furniture"
+        },
+        {
+          "product": "Desk",
+          "price": 150.0,
+          "qty": 2,
+          "category": "Furniture"
+        }
+      ],
+      "totals": {
+        "subtotal": 619.96,
+        "tax": 49.6,
+        "shipping": 0.0,
+        "total": 669.56
+      },
+      "date": "2025-01-19"
+    },
+    {
+      "id": "ORD-019",
+      "customer": {
+        "name": "Carol Martinez",
+        "city": "Phoenix",
+        "age": 39
+      },
+      "items": [
+        {
+          "product": "Chair",
+          "price": 89.99,
+          "qty": 1,
+          "category": "Furniture"
+        },
+        {
+          "product": "Laptop",
+          "price": 999.99,
+          "qty": 1,
+          "category": "Electronics"
+        },
+        {
+          "product": "Laptop",
+          "price": 999.99,
+          "qty": 2,
+          "category": "Electronics"
+        },
+        {
+          "product": "Mouse",
+          "price": 29.99,
+          "qty": 1,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 3119.95,
+        "tax": 249.6,
+        "shipping": 0.0,
+        "total": 3369.55
+      },
+      "date": "2025-01-16"
+    },
+    {
+      "id": "ORD-020",
+      "customer": {
+        "name": "Eva Martinez",
+        "city": "Chicago",
+        "age": 54
+      },
+      "items": [
+        {
+          "product": "Monitor",
+          "price": 199.99,
+          "qty": 1,
+          "category": "Electronics"
+        },
+        {
+          "product": "Book",
+          "price": 19.99,
+          "qty": 3,
+          "category": "Books"
+        },
+        {
+          "product": "Book",
+          "price": 19.99,
+          "qty": 2,
+          "category": "Books"
+        },
+        {
+          "product": "Desk",
+          "price": 150.0,
+          "qty": 2,
+          "category": "Furniture"
+        },
+        {
+          "product": "Laptop",
+          "price": 999.99,
+          "qty": 2,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 2599.92,
+        "tax": 207.99,
+        "shipping": 10.0,
+        "total": 2817.91
+      },
+      "date": "2025-01-22"
+    },
+    {
+      "id": "ORD-021",
+      "customer": {
+        "name": "Henry Davis",
+        "city": "Phoenix",
+        "age": 53
+      },
+      "items": [
+        {
+          "product": "Keyboard",
+          "price": 59.99,
+          "qty": 3,
+          "category": "Electronics"
+        },
+        {
+          "product": "Laptop",
+          "price": 999.99,
+          "qty": 3,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 3179.94,
+        "tax": 254.4,
+        "shipping": 0.0,
+        "total": 3434.34
+      },
+      "date": "2025-01-05"
+    },
+    {
+      "id": "ORD-022",
+      "customer": {
+        "name": "Eva Brown",
+        "city": "Dallas",
+        "age": 50
+      },
+      "items": [
+        {
+          "product": "Bookmark",
+          "price": 4.99,
+          "qty": 3,
+          "category": "Books"
+        },
+        {
+          "product": "Chair",
+          "price": 89.99,
+          "qty": 1,
+          "category": "Furniture"
+        }
+      ],
+      "totals": {
+        "subtotal": 104.96,
+        "tax": 8.4,
+        "shipping": 10.0,
+        "total": 123.36
+      },
+      "date": "2025-01-25"
+    },
+    {
+      "id": "ORD-023",
+      "customer": {
+        "name": "Ivy Rodriguez",
+        "city": "LA",
+        "age": 67
+      },
+      "items": [
+        {
+          "product": "T-Shirt",
+          "price": 14.99,
+          "qty": 2,
+          "category": "Clothing"
+        },
+        {
+          "product": "Mouse",
+          "price": 29.99,
+          "qty": 3,
+          "category": "Electronics"
+        },
+        {
+          "product": "Chair",
+          "price": 89.99,
+          "qty": 2,
+          "category": "Furniture"
+        },
+        {
+          "product": "Desk",
+          "price": 150.0,
+          "qty": 3,
+          "category": "Furniture"
+        },
+        {
+          "product": "Chair",
+          "price": 89.99,
+          "qty": 1,
+          "category": "Furniture"
+        }
+      ],
+      "totals": {
+        "subtotal": 839.92,
+        "tax": 67.19,
+        "shipping": 5.0,
+        "total": 912.11
+      },
+      "date": "2025-01-15"
+    },
+    {
+      "id": "ORD-024",
+      "customer": {
+        "name": "Alice Brown",
+        "city": "Phoenix",
+        "age": 70
+      },
+      "items": [
+        {
+          "product": "Jeans",
+          "price": 49.99,
+          "qty": 3,
+          "category": "Clothing"
+        }
+      ],
+      "totals": {
+        "subtotal": 149.97,
+        "tax": 12.0,
+        "shipping": 5.0,
+        "total": 166.97
+      },
+      "date": "2025-01-11"
+    },
+    {
+      "id": "ORD-025",
+      "customer": {
+        "name": "Eva Rodriguez",
+        "city": "Houston",
+        "age": 67
+      },
+      "items": [
+        {
+          "product": "Keyboard",
+          "price": 59.99,
+          "qty": 1,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 59.99,
+        "tax": 4.8,
+        "shipping": 0.0,
+        "total": 64.79
+      },
+      "date": "2025-01-14"
+    },
+    {
+      "id": "ORD-026",
+      "customer": {
+        "name": "Eva Martinez",
+        "city": "Phoenix",
+        "age": 39
+      },
+      "items": [
+        {
+          "product": "Desk",
+          "price": 150.0,
+          "qty": 1,
+          "category": "Furniture"
+        },
+        {
+          "product": "Monitor",
+          "price": 199.99,
+          "qty": 3,
+          "category": "Electronics"
+        },
+        {
+          "product": "Keyboard",
+          "price": 59.99,
+          "qty": 3,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 929.94,
+        "tax": 74.4,
+        "shipping": 10.0,
+        "total": 1014.34
+      },
+      "date": "2025-01-14"
+    },
+    {
+      "id": "ORD-027",
+      "customer": {
+        "name": "Jack Johnson",
+        "city": "NYC",
+        "age": 69
+      },
+      "items": [
+        {
+          "product": "Monitor",
+          "price": 199.99,
+          "qty": 3,
+          "category": "Electronics"
+        },
+        {
+          "product": "Book",
+          "price": 19.99,
+          "qty": 3,
+          "category": "Books"
+        },
+        {
+          "product": "Laptop",
+          "price": 999.99,
+          "qty": 1,
+          "category": "Electronics"
+        },
+        {
+          "product": "Mouse",
+          "price": 29.99,
+          "qty": 2,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 1719.91,
+        "tax": 137.59,
+        "shipping": 10.0,
+        "total": 1867.5
+      },
+      "date": "2025-01-26"
+    },
+    {
+      "id": "ORD-028",
+      "customer": {
+        "name": "Ivy Jones",
+        "city": "San Diego",
+        "age": 22
+      },
+      "items": [
+        {
+          "product": "Laptop",
+          "price": 999.99,
+          "qty": 2,
+          "category": "Electronics"
+        },
+        {
+          "product": "Desk",
+          "price": 150.0,
+          "qty": 2,
+          "category": "Furniture"
+        },
+        {
+          "product": "Keyboard",
+          "price": 59.99,
+          "qty": 1,
+          "category": "Electronics"
+        },
+        {
+          "product": "Desk",
+          "price": 150.0,
+          "qty": 1,
+          "category": "Furniture"
+        },
+        {
+          "product": "Book",
+          "price": 19.99,
+          "qty": 1,
+          "category": "Books"
+        }
+      ],
+      "totals": {
+        "subtotal": 2529.96,
+        "tax": 202.4,
+        "shipping": 0.0,
+        "total": 2732.36
+      },
+      "date": "2025-01-15"
+    },
+    {
+      "id": "ORD-029",
+      "customer": {
+        "name": "Bob Martinez",
+        "city": "Philadelphia",
+        "age": 55
+      },
+      "items": [
+        {
+          "product": "Desk",
+          "price": 150.0,
+          "qty": 2,
+          "category": "Furniture"
+        },
+        {
+          "product": "T-Shirt",
+          "price": 14.99,
+          "qty": 3,
+          "category": "Clothing"
+        },
+        {
+          "product": "T-Shirt",
+          "price": 14.99,
+          "qty": 2,
+          "category": "Clothing"
+        }
+      ],
+      "totals": {
+        "subtotal": 374.95,
+        "tax": 30.0,
+        "shipping": 15.0,
+        "total": 419.95
+      },
+      "date": "2025-01-28"
+    },
+    {
+      "id": "ORD-030",
+      "customer": {
+        "name": "Jack Miller",
+        "city": "San Diego",
+        "age": 29
+      },
+      "items": [
+        {
+          "product": "Laptop",
+          "price": 999.99,
+          "qty": 1,
+          "category": "Electronics"
+        },
+        {
+          "product": "Book",
+          "price": 19.99,
+          "qty": 3,
+          "category": "Books"
+        },
+        {
+          "product": "T-Shirt",
+          "price": 14.99,
+          "qty": 3,
+          "category": "Clothing"
+        },
+        {
+          "product": "Mouse",
+          "price": 29.99,
+          "qty": 1,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 1134.92,
+        "tax": 90.79,
+        "shipping": 10.0,
+        "total": 1235.71
+      },
+      "date": "2025-01-07"
+    },
+    {
+      "id": "ORD-031",
+      "customer": {
+        "name": "Carol Smith",
+        "city": "NYC",
+        "age": 67
+      },
+      "items": [
+        {
+          "product": "Desk",
+          "price": 150.0,
+          "qty": 2,
+          "category": "Furniture"
+        },
+        {
+          "product": "Laptop",
+          "price": 999.99,
+          "qty": 2,
+          "category": "Electronics"
+        },
+        {
+          "product": "Jeans",
+          "price": 49.99,
+          "qty": 2,
+          "category": "Clothing"
+        },
+        {
+          "product": "Keyboard",
+          "price": 59.99,
+          "qty": 1,
+          "category": "Electronics"
+        },
+        {
+          "product": "Jeans",
+          "price": 49.99,
+          "qty": 3,
+          "category": "Clothing"
+        }
+      ],
+      "totals": {
+        "subtotal": 2609.92,
+        "tax": 208.79,
+        "shipping": 15.0,
+        "total": 2833.71
+      },
+      "date": "2025-01-12"
+    },
+    {
+      "id": "ORD-032",
+      "customer": {
+        "name": "Frank Jones",
+        "city": "San Diego",
+        "age": 64
+      },
+      "items": [
+        {
+          "product": "Desk",
+          "price": 150.0,
+          "qty": 1,
+          "category": "Furniture"
+        }
+      ],
+      "totals": {
+        "subtotal": 150.0,
+        "tax": 12.0,
+        "shipping": 5.0,
+        "total": 167.0
+      },
+      "date": "2025-01-08"
+    },
+    {
+      "id": "ORD-033",
+      "customer": {
+        "name": "Alice Rodriguez",
+        "city": "Chicago",
+        "age": 63
+      },
+      "items": [
+        {
+          "product": "Bookmark",
+          "price": 4.99,
+          "qty": 3,
+          "category": "Books"
+        },
+        {
+          "product": "Laptop",
+          "price": 999.99,
+          "qty": 2,
+          "category": "Electronics"
+        },
+        {
+          "product": "Desk",
+          "price": 150.0,
+          "qty": 3,
+          "category": "Furniture"
+        }
+      ],
+      "totals": {
+        "subtotal": 2464.95,
+        "tax": 197.2,
+        "shipping": 5.0,
+        "total": 2667.15
+      },
+      "date": "2025-01-09"
+    },
+    {
+      "id": "ORD-034",
+      "customer": {
+        "name": "Alice Rodriguez",
+        "city": "Chicago",
+        "age": 29
+      },
+      "items": [
+        {
+          "product": "Bookmark",
+          "price": 4.99,
+          "qty": 3,
+          "category": "Books"
+        },
+        {
+          "product": "Chair",
+          "price": 89.99,
+          "qty": 1,
+          "category": "Furniture"
+        },
+        {
+          "product": "Bookmark",
+          "price": 4.99,
+          "qty": 1,
+          "category": "Books"
+        },
+        {
+          "product": "Chair",
+          "price": 89.99,
+          "qty": 2,
+          "category": "Furniture"
+        },
+        {
+          "product": "Monitor",
+          "price": 199.99,
+          "qty": 2,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 689.91,
+        "tax": 55.19,
+        "shipping": 5.0,
+        "total": 750.1
+      },
+      "date": "2025-01-01"
+    },
+    {
+      "id": "ORD-035",
+      "customer": {
+        "name": "Carol Johnson",
+        "city": "San Diego",
+        "age": 44
+      },
+      "items": [
+        {
+          "product": "T-Shirt",
+          "price": 14.99,
+          "qty": 1,
+          "category": "Clothing"
+        },
+        {
+          "product": "Bookmark",
+          "price": 4.99,
+          "qty": 2,
+          "category": "Books"
+        },
+        {
+          "product": "Laptop",
+          "price": 999.99,
+          "qty": 1,
+          "category": "Electronics"
+        },
+        {
+          "product": "Book",
+          "price": 19.99,
+          "qty": 3,
+          "category": "Books"
+        },
+        {
+          "product": "Mouse",
+          "price": 29.99,
+          "qty": 1,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 1114.92,
+        "tax": 89.19,
+        "shipping": 10.0,
+        "total": 1214.11
+      },
+      "date": "2025-01-24"
+    },
+    {
+      "id": "ORD-036",
+      "customer": {
+        "name": "Eva Davis",
+        "city": "NYC",
+        "age": 65
+      },
+      "items": [
+        {
+          "product": "Monitor",
+          "price": 199.99,
+          "qty": 3,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 599.97,
+        "tax": 48.0,
+        "shipping": 10.0,
+        "total": 657.97
+      },
+      "date": "2025-01-28"
+    },
+    {
+      "id": "ORD-037",
+      "customer": {
+        "name": "David Johnson",
+        "city": "Dallas",
+        "age": 22
+      },
+      "items": [
+        {
+          "product": "Desk",
+          "price": 150.0,
+          "qty": 3,
+          "category": "Furniture"
+        },
+        {
+          "product": "Chair",
+          "price": 89.99,
+          "qty": 2,
+          "category": "Furniture"
+        },
+        {
+          "product": "Monitor",
+          "price": 199.99,
+          "qty": 2,
+          "category": "Electronics"
+        },
+        {
+          "product": "Bookmark",
+          "price": 4.99,
+          "qty": 1,
+          "category": "Books"
+        }
+      ],
+      "totals": {
+        "subtotal": 1034.95,
+        "tax": 82.8,
+        "shipping": 15.0,
+        "total": 1132.75
+      },
+      "date": "2025-01-08"
+    },
+    {
+      "id": "ORD-038",
+      "customer": {
+        "name": "Bob Jones",
+        "city": "LA",
+        "age": 38
+      },
+      "items": [
+        {
+          "product": "Mouse",
+          "price": 29.99,
+          "qty": 1,
+          "category": "Electronics"
+        },
+        {
+          "product": "Jeans",
+          "price": 49.99,
+          "qty": 2,
+          "category": "Clothing"
+        },
+        {
+          "product": "Monitor",
+          "price": 199.99,
+          "qty": 2,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 529.95,
+        "tax": 42.4,
+        "shipping": 10.0,
+        "total": 582.35
+      },
+      "date": "2025-01-20"
+    },
+    {
+      "id": "ORD-039",
+      "customer": {
+        "name": "Bob Jones",
+        "city": "San Antonio",
+        "age": 54
+      },
+      "items": [
+        {
+          "product": "Laptop",
+          "price": 999.99,
+          "qty": 1,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 999.99,
+        "tax": 80.0,
+        "shipping": 0.0,
+        "total": 1079.99
+      },
+      "date": "2025-01-22"
+    },
+    {
+      "id": "ORD-040",
+      "customer": {
+        "name": "Bob Martinez",
+        "city": "Dallas",
+        "age": 36
+      },
+      "items": [
+        {
+          "product": "Mouse",
+          "price": 29.99,
+          "qty": 2,
+          "category": "Electronics"
+        },
+        {
+          "product": "Book",
+          "price": 19.99,
+          "qty": 1,
+          "category": "Books"
+        },
+        {
+          "product": "Bookmark",
+          "price": 4.99,
+          "qty": 1,
+          "category": "Books"
+        },
+        {
+          "product": "Jeans",
+          "price": 49.99,
+          "qty": 3,
+          "category": "Clothing"
+        }
+      ],
+      "totals": {
+        "subtotal": 234.93,
+        "tax": 18.79,
+        "shipping": 5.0,
+        "total": 258.72
+      },
+      "date": "2025-01-23"
+    },
+    {
+      "id": "ORD-041",
+      "customer": {
+        "name": "Ivy Martinez",
+        "city": "San Jose",
+        "age": 53
+      },
+      "items": [
+        {
+          "product": "Laptop",
+          "price": 999.99,
+          "qty": 1,
+          "category": "Electronics"
+        },
+        {
+          "product": "Keyboard",
+          "price": 59.99,
+          "qty": 3,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 1179.96,
+        "tax": 94.4,
+        "shipping": 0.0,
+        "total": 1274.36
+      },
+      "date": "2025-01-13"
+    },
+    {
+      "id": "ORD-042",
+      "customer": {
+        "name": "Jack Rodriguez",
+        "city": "San Jose",
+        "age": 43
+      },
+      "items": [
+        {
+          "product": "Bookmark",
+          "price": 4.99,
+          "qty": 1,
+          "category": "Books"
+        }
+      ],
+      "totals": {
+        "subtotal": 4.99,
+        "tax": 0.4,
+        "shipping": 10.0,
+        "total": 15.39
+      },
+      "date": "2025-01-16"
+    },
+    {
+      "id": "ORD-043",
+      "customer": {
+        "name": "Ivy Smith",
+        "city": "San Diego",
+        "age": 61
+      },
+      "items": [
+        {
+          "product": "Laptop",
+          "price": 999.99,
+          "qty": 1,
+          "category": "Electronics"
+        }
+      ],
+      "totals": {
+        "subtotal": 999.99,
+        "tax": 80.0,
+        "shipping": 5.0,
+        "total": 1084.99
+      },
+      "date": "2025-01-30"
+    },
+    {
+      "id": "ORD-044",
+      "customer": {
+        "name": "Ivy Brown",
+        "city": "San Jose",
+        "age": 59
+      },
+      "items": [
+        {
+          "product": "Desk",
+          "price": 150.0,
+          "qty": 3,
+          "category": "Furniture"
+        },
+        {
+          "product": "Chair",
+          "price": 89.99,
+          "qty": 3,
+          "category": "Furniture"
+        },
+        {
+          "product": "Chair",
+          "price": 89.99,
+          "qty": 3,
+          "category": "Furniture"
+        }
+      ],
+      "totals": {
+        "subtotal": 989.94,
+        "tax": 79.2,
+        "shipping": 5.0,
+        "total": 1074.14
+      },
+      "date": "2025-01-16"
+    },
+    {
+      "id": "ORD-045",
+      "customer": {
+        "name": "Alice Rodriguez",
+        "city": "Dallas",
+        "age": 63
+      },
+      "items": [
+        {
+          "product": "Bookmark",
+          "price": 4.99,
+          "qty": 1,
+          "category": "Books"
+        },
+        {
+          "product": "Chair",
+          "price": 89.99,
+          "qty": 3,
+          "category": "Furniture"
+        },
+        {
+          "product": "Mouse",
+          "price": 29.99,
+          "qty": 2,
+          "category": "Electronics"
+        },
+        {
+          "product": "Jeans",
+          "price": 49.99,
+          "qty": 2,
+          "category": "Clothing"
+        },
+        {
+          "product": "Book",
+          "price": 19.99,
+          "qty": 3,
+          "category": "Books"
+        }
+      ],
+      "totals": {
+        "subtotal": 494.89,
+        "tax": 39.59,
+        "shipping": 0.0,
+        "total": 534.48
+      },
+      "date": "2025-01-30"
+    },
+    {
+      "id": "ORD-046",
+      "customer": {
+        "name": "Carol Rodriguez",
+        "city": "Philadelphia",
+        "age": 47
+      },
+      "items": [
+        {
+          "product": "T-Shirt",
+          "price": 14.99,
+          "qty": 1,
+          "category": "Clothing"
+        }
+      ],
+      "totals": {
+        "subtotal": 14.99,
+        "tax": 1.2,
+        "shipping": 10.0,
+        "total": 26.19
+      },
+      "date": "2025-01-30"
+    },
+    {
+      "id": "ORD-047",
+      "customer": {
+        "name": "Frank Garcia",
+        "city": "Philadelphia",
+        "age": 20
+      },
+      "items": [
+        {
+          "product": "Desk",
+          "price": 150.0,
+          "qty": 2,
+          "category": "Furniture"
+        }
+      ],
+      "totals": {
+        "subtotal": 300.0,
+        "tax": 24.0,
+        "shipping": 15.0,
+        "total": 339.0
+      },
+      "date": "2025-01-04"
+    },
+    {
+      "id": "ORD-048",
+      "customer": {
+        "name": "Eva Brown",
+        "city": "NYC",
+        "age": 54
+      },
+      "items": [
+        {
+          "product": "Book",
+          "price": 19.99,
+          "qty": 1,
+          "category": "Books"
+        },
+        {
+          "product": "Laptop",
+          "price": 999.99,
+          "qty": 3,
+          "category": "Electronics"
+        },
+        {
+          "product": "Bookmark",
+          "price": 4.99,
+          "qty": 3,
+          "category": "Books"
+        }
+      ],
+      "totals": {
+        "subtotal": 3034.93,
+        "tax": 242.79,
+        "shipping": 10.0,
+        "total": 3287.72
+      },
+      "date": "2025-01-14"
+    },
+    {
+      "id": "ORD-049",
+      "customer": {
+        "name": "Carol Davis",
+        "city": "LA",
+        "age": 51
+      },
+      "items": [
+        {
+          "product": "Book",
+          "price": 19.99,
+          "qty": 1,
+          "category": "Books"
+        }
+      ],
+      "totals": {
+        "subtotal": 19.99,
+        "tax": 1.6,
+        "shipping": 0.0,
+        "total": 21.59
+      },
+      "date": "2025-01-13"
+    },
+    {
+      "id": "ORD-050",
+      "customer": {
+        "name": "Henry Johnson",
+        "city": "San Antonio",
+        "age": 67
+      },
+      "items": [
+        {
+          "product": "Book",
+          "price": 19.99,
+          "qty": 1,
+          "category": "Books"
+        },
+        {
+          "product": "Jeans",
+          "price": 49.99,
+          "qty": 2,
+          "category": "Clothing"
+        }
+      ],
+      "totals": {
+        "subtotal": 119.97,
+        "tax": 9.6,
+        "shipping": 5.0,
+        "total": 134.57
+      },
+      "date": "2025-01-03"
+    }
+  ]
+}
