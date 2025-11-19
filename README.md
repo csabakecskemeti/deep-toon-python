@@ -118,8 +118,8 @@ compressed = deep_toon.encode(data)
 print("Compressed:", compressed)
 
 # Decompress back to original
-original = deep_toon.decode(compressed)
-print("Original data restored:", data == original)
+decoded_data = deep_toon.decode(compressed)
+assert data == decoded_data  # Perfect fidelity
 ```
 
 **Output:**
